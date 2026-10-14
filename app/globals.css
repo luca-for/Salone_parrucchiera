@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-signature: var(--font-signature), cursive;
+  --font-serif: var(--font-serif), ui-serif, Georgia, serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-brand-dark: #2A1E10;
+  --color-brand-gold: #D4BA91;
+  --color-brand-cream: #F4F0E0;
+  --color-brand-ink: #2C1E14;
+  --z-index-100: 100;
+}
+
+.font-signature {
+  font-family: var(--font-signature);
+}
+
+#promo-banner~header .header-line,
+#promo-banner+header .header-line {
+  display: none !important;
+}
+
+h1 {
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 e IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
