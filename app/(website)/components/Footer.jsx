@@ -104,16 +104,6 @@ export default function Footer() {
         </div>
 
 
-        <div className="w-full md:w-1/3 text-[10px] text-gray-300 uppercase tracking-widest text-center ">
-          <a
-            href="https://www.lucaforcelladev.it/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white transition-colors"
-          >
-
-            Design by Luca Forcella</a></div>
-
 
 
 

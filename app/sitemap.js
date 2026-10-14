@@ -1,5 +1,5 @@
 export default async function sitemap() {
-    const baseUrl = "https://salone.lucaforcelladev.it/"; //Inserire il dominio 
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 
     //pagine statiche principali
