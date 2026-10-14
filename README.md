@@ -11,7 +11,7 @@ Sito web sviluppato per un salone di parrucchiera. Il progetto integra un CMS he
 *   **Linguaggio:** Javascript
 *   **Styling:** Tailwind CSS  
 *   **CMS:** Sanity.io
-*   **Package Manager:** npm
+*   **Package Manager:** pnpm
 *   **Deployment:** Vercel
 
 ##  Sicurezza e Privacy
